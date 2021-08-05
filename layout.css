@@ -1,0 +1,241 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* align, border, input */
+img, fieldset, a {border: none;}
+img{vertical-align: middle;}
+table, thead, tbody, tfoot {border-collapse: collapse; border-spacing: 0; border: none;}
+ul,ol,li {list-style: none;}
+address, em{font-style: normal;}
+input,select, textarea, button, form img, lable {vertical-align: middle;}
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+a {text-decoration: none; color: #000;}
+/* //초기화 */
+
+#wrap {max-width: 1600px; width: 100%; min-width: 1260px; margin: 0 auto; position: relative; padding: 0 0px;}
+
+/* 위치잡기 */
+#header {width: 100%; position: fixed; top: 0; left: 0; height: 50px; z-index: 9999; background: rgba(255,255,255,0);}
+#container {width: 100%; position: relative; width: 100%;}
+.header_area {max-width: 1600px; width: 100%; min-width: 1260px; height: 50px; margin: 0 auto; padding: 0 0px; position: relative;}
+
+
+/* header */
+#logo {height: 50px; position: absolute; left: calc(50% - 27px); width: 64px; text-align: center; line-height: 50px;}
+#logo a {width: 100%; height: 100%;}
+#logo img {position: absolute; width: 100%; height: 100%; left: 0;}
+#logo img {display: none;}
+#logo img.on {display: block;}
+button {all: unset; font-size: 16px; background-color: blue; border: none; padding: 5px;border-radius: 100px;}
+.opengnb { display : inline-block ; width : 20px ; height : 23px ; position : absolute ; top : 13px ; left : 10px ; background : none ; cursor : pointer;}
+.opengnb span {display : inline-block ; position : absolute ; left : 0 ; width : 100% ; height : 1px ; background-color : #fff ; transition : ease-out .2s ; transform-origin : center center}
+.opengnb span:nth-child(1) {top: 5px;}
+.opengnb span:nth-child(2) {top: 11px;}
+.opengnb span:nth-child(3) {top: 17px;}
+.opengnb.on span:nth-child(1) {transform: rotate(45deg); top: 11px;}
+.opengnb.on span:nth-child(2) {left: 50%; width: 0;}
+.opengnb.on span:nth-child(3) { transform: rotate(-45deg); top: 11px;}
+.tnb {width: 80px; height: 50px; position: absolute; right: 0px;}
+.util {width: 100%; height: 50px;}
+.tnb li {width: 50%; height: 100%; float: left;}
+.tnb li a {display: block; width: 100%; height: 100%; position: relative; color: #fff; text-align: center; line-height: 50px;}
+/* gnb */
+.header_cont {min-width: 1600px; width: 100%;height: 200px; z-index: -10; top: 50px; position: absolute; text-align: left; border-bottom: 1px solid; background-color: #fff; padding-left: 1500px;padding-right: 1500px; left: -1500px;border-top: 1px solid;}
+.main_menu {float: left; width: 50%; height: 100%;}
+.main_nav {width: 100%; height: 100%;}
+.sub_menu {float: left; width: 50%; height: 200px;border-left: 1px solid; box-sizing: border-box;}
+.main_nav li {font-size: 12px; line-height: 2.0; margin-left: 10px;}
+.main_nav li:first-child {margin-top: 12px;}
+.main_nav li a {text-decoration: none; color: #666;}
+.main_nav li a:hover {color: #222;}
+.sub_menu ul {position: absolute; margin-left: 10px;}
+.sub_menu li:first-child {margin-top: 12px;}
+.sub_menu li a {text-decoration: none; line-height: 2.0; color: #666; font-size: 12px;}
+.sub_menu {display: none;}
+.sub_1 {display: none;}
+.sub_3 {display: none;}
+.sub_4 {display: none;}
+.sub_6 {display: none;}
+.sub_menu.on{display: block;}
+
+
+/* contents */
+.main_vid {overflow: hidden; display: block; align-items: center; position: relative; object-fit: cover;}
+.main_vid {width: 100%; margin: 0 auto;}
+.intro_content {width: 100%; height: 800px;}
+.intro_content h3 {width: 100%; height: 20px; font-size: 1rem; text-align: center; display: block; margin: 0 auto; padding-top: 100px; padding-bottom: 50px;}
+.intro_content .intro {width: 100%;}
+.intro_content img {width: 50%; display: block; margin: 0 auto;}
+.intro_content p {font-size: 16px;display: block; width: 100%; margin: 0 auto; padding-top: 50px; text-align: center;}
+.intro_content span a {display: block; margin: 0 auto; text-align: center; padding:10px; border: 1px solid; width: 25%; margin-top: 50px;}
+.intro_content span a:hover { background-color: #000; color: #fff;transition: linear 0.6s;}
+.contents {width: 100%; height: 500px; border: 1px solid aliceblue; background-color: #111; color: aliceblue; position: relative; border-left: none;}
+.ct_title {width: 100%; border-bottom: 1px solid; text-align: center; height: 50px; font-size: 20px; line-height: 50px;}
+.con_caption {width: 50%; height: 450px; float: left;}
+.con_caption h2, .con_caption p, .con_caption span {display: block; margin-left: 200px;}
+.con_caption h2 {padding-top: 100px; font-size: 22px;}
+.con_caption p {padding: 30px 0; font-size: 14px;}
+.con_caption span {margin-top: 10px;}
+.con_caption span a {width: 100%; height: 100%; display: block; color: #fff;}
+.ct_vid {width: 50%; height: 448px; float: left; overflow: hidden; box-sizing: border-box;}
+.contents span {display: block; width: 400px; border: 1px solid aliceblue; height: 30px; text-align: center; line-height: 30px;}
+.contents video {top: 0; right: 0; width: 100%; height: 100%;}
+.contents span a:hover {background-color: aliceblue; color: #000;transition: all 0.6s;}
+
+/* footer */
+.footer_wrap {font-weight: lighter;}
+.footer_wrap {width: 100%; height: 430px; margin-left: 10px;}
+.footer_introduce {float: left; width: 50%;}
+.footer_introduce h4 {margin-top: 40px;font-size: 14px;}
+.footer_introduce p {margin-top: 20px; font-size: 11px; line-height: 1.7;}
+.footer_bluemark {float: left; width: 25%; margin-left: 0px;}
+.footer_bluemark h4 {margin-top: 40px;font-size: 14px; color: blue;}
+.footer_bluemark p {margin-top: 20px; font-size: 11px; line-height: 1.7;}
+.footer_bluemark span a {display: block; border: 1px solid blue; margin: 20px; height: 30px; text-align: center; line-height: 30px; width: 80%; margin-left: 0; color: blue;}
+.footer_bluemark span a:hover {background-color: blue; border: 1px solid blue; color: #fff; transition: all linear 0.6s;}
+.footer_service {float: left; width: 25%; height: 60%; font-size: 14px; color: #666;}
+.customer_service h4 {margin-top: 40px; font-size: 11px;}
+.customer_service li a {text-decoration: none; color: #666; font-size: 11px;}
+.customer_service li {line-height: 1.8; color: #666; margin-top: 5px;}
+.customer_service > li:nth-child(2) {margin-top: 20px;}
+.customer_service li a:hover {color: #111;}
+.footer_information {float: left; display: block; width: 75%; position: relative;}
+.footer_information span {display : inline-block ; position : absolute ; left : 0 ; width : 10px ; height : 1px ; background-color : #555 ; transition : ease-out .2s ; transform-origin : center center}
+.info_button {position: absolute; left: 50%;}
+.info_button span:nth-child(1) {transform: rotate(90deg);}
+.info_button.on span:nth-child(1) {transform: rotate(0deg);}
+.company_info * {color: #222;}
+.company_info > button {display: inline-block; margin-bottom: 20px; color: #666; font-size: 14px; cursor: pointer; background-color: #fff; padding: 0;}
+.company_info dd {font-size: 12px; color: #666;}
+.sns {float: left; padding-top: 80px; width: 25%;}
+.sns li {display: block; width: 20px; height: 20px; float: left; margin: 5px; margin-right: 10px;}
+.sns ul  li a { border : solid 1px #000 ; width : 30px ; height: 30px ; text-align : center ; line-height : 28px ; border-radius : 50% ; display : inline-block ; transition : ease-out .2s ; background-size : 50% ; background-position : center ; background-repeat : no-repeat ; font-size : 0 ; opacity: .2 }
+.sns li a { display : inline-block }
+.sns li:nth-child(1) a {background: url(../images/ico-social-facebook.png); background-position: center; background-size: 25%; background-repeat: no-repeat;}
+.sns li:nth-child(2) a {background: url(../images/ico-social-instagram.png); background-position: center; background-size: 50%; background-repeat: no-repeat;}
+.sns li:nth-child(3) a {background: url(../images/ico-social-youtube.png); background-position: center; background-size: 50%; background-repeat: no-repeat;}
+.sns li:nth-child(4) a {background: url(../images/ico-social-kakao.png); background-position: center; background-size: 50%; background-repeat: no-repeat;}
+.sns li:nth-child(5) a {background: url(../images/ico-social-pinterest.png); background-position: center; background-size: 50%; background-repeat: no-repeat;}
+.sns li:nth-child(6) a {background: url(../images/ico-social-vimeo.png); background-position: center; background-size: 70%; background-repeat: no-repeat;}
+.sns li:nth-child(7) a {background: url(../images/ico-social-tumblr.png); background-position: center; background-size: 50%; background-repeat: no-repeat;}
+.sns ul  li a:hover { opacity : 1 }
+.sns h4 {display: block; width: 100%; font-size: 14px;color: #666; margin-bottom: 10px;}
+.sns li {margin-left: 0; margin-right: 20px;}
+.copy {margin-bottom: 10px; font-size: 9px; color: #666; margin-top: 20px; bottom: 10px ; float: left;}
+
+
+/* login */
+#login {width: 100%; min-width: 1260px; position: relative; margin-top: 50px; border-bottom: 1px solid;}
+#login * {box-sizing: border-box;}
+#aderForm legend {text-align: center; padding-top: 70px; padding-bottom: 70px;}
+#footer {max-width: 1600px; min-width: 1260px; margin: 0 auto; top: 50px; position: relative;}
+#login form {width: 460px; margin: 0 auto; text-align: center;}
+#login label {float: left; font-size: 9px; color: #666; line-height: 1.7;}
+#login #loginId{width: 100%; height: 30px; border-radius: 0px; border: 1px solid; margin-bottom: 10px; margin-top: 5px;}
+#login #loginPw {width: 100%; height: 30px; border-radius: 0px; border: 1px solid; margin-bottom: 40px; margin-top: 5px;}
+#login button {width: 460px; background-color: #000; color: #fff; border-radius: 0px; height: 35px; padding: 1px 2px; font-size: 9px; margin-bottom: 10px;}
+#join_wrap {width: 100%; height: 50px;}
+.find li a {font-size: 10px; color: #666;}
+.find li span {font-size: 10px; color: #666;}
+.find {width: 100%; height: 20px;}
+.find li {position: relative;}
+.find li:nth-child(1) {float: left;}
+.find li:nth-child(2) {float: left;}
+.find li:nth-child(3) {float: left;}
+.find li:nth-child(4) {float: right;}
+.join {text-align: left; width: 100%; height: 35px; margin-bottom: 30px;}
+.join a {font-size: 10px; color: #666;}
+
+
+
+/* new */
+.nc_wrap {top: 50px; width: 100%; position: relative; z-index: 999;height: 60px;}
+.nc_wrap table {position: absolute; width: 100%; height: 60px; background-color: #fff;}
+.nc_menu1 tr {width: 100%; box-sizing: border-box;}
+.nc_menu1 td {border: 1px solid #000; text-align: center; line-height: 1.5; color: #777; width: 25%; font-size: 12px; border-right: none; box-sizing: border-box;}
+.nc_menu1 tr:first-child td:first-child {vertical-align: middle; border-left: none;}
+.nc_menu2 tr {width: 100%; box-sizing: border-box;}
+.nc_menu2 td {border: 1px solid #000; text-align: center; line-height: 1.5; color: #777; width: 25%; font-size: 12px;border-right: none; box-sizing: border-box;}
+.nc_menu2 tr:first-child td:first-child {vertical-align: middle; border-left: none;}
+.nc_menu1.on {display: none;}
+.nc_menu2.on {display: none;}
+.nc_menu1 button {background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer}
+.nc_menu1 button {width: 0;
+	height: 0;
+	border-bottom: 5px solid #777;/* 화살표 */
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+.nc_menu2 button {background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer}
+.nc_menu2 button {width: 0;
+	height: 0;
+	border-top: 5px solid #777;/* 화살표 */
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+.nc_menu1 .nc_bt1 {cursor: pointer;}
+.nc_menu2 .nc_bt {cursor: pointer;}
+.nc_menu1 button.classification {width: 100%; border: none; font-size: 12px; height: 100%; box-sizing: border-box; display: block;}
+.nc_menu2 button.classification {width: 100%; border: none; font-size: 12px; height: 100%; box-sizing: border-box; display: block;}
+
+
+/* nc_ct */
+.nc_ct {width: 100%; position: relative; border-top: none; border-left: none; border-bottom: 1px solid; top: 50px;}
+.nc_main {width: 100%; display: table;}
+.nc_main li {display: block; width: 25%; float: left; border: 1px solid; box-sizing: border-box; position: relative; border-left: none; border-bottom: none;}
+.nc_main li a {width: 100%; height: 100%;}
+.nc_main li a img {width: 100%;}
+.box {position: absolute; bottom: 40px; left: 10px; width: calc( 100% - 13px );}
+.color {position: absolute; bottom: 30px; left: 10px; width: calc( 100% - 10px );}
+.price {position: absolute; bottom: 15px; left: 10px; width: calc( 100% - 10px );}
+.box strong {font-size: 13px;}
+.color {position: absolute; font-size: 11px; display: inline-block; color: #999;}
+.price {position: absolute; font-size: 11px; display: inline-block; color: #999;}
+
+
+/* sub_editoreal */
+.edt_th {width: 100%; height: 800px;}
+.edt_th img {width: 100%; height: 100%;}
+
+
+
