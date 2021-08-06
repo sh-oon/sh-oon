@@ -17,6 +17,7 @@ $(function (){
     $('#logo img:nth-child(1)').removeClass('on');
     $('#logo img:nth-child(2)').addClass('on');
     $('.opengnb span').css({"background-color":"#000"})
+    $('.util li a').css({"color":"#000"})
   }, function(){
     $(this).removeClass('on');
     $('.sub_menu').removeClass('on');
@@ -25,9 +26,11 @@ $(function (){
     $('.opengnb span').css({"background-color":"#fff"});
     $('#header').css({
       "background-color": "rgba(255,255,255,0)",
-      "transition-delay": "all .15s",
+      "transition": "linear .1s",
+      "transition-delay": ".1s",
       "border": "none"
     });
+    $('.util li a').css({"color":"#fff"})
   });
 });
 $(function(){
@@ -36,7 +39,6 @@ $(function(){
     $('.header_cont').slideToggle(100);
   });
 });
-
 
 //메뉴바
 $(function(){

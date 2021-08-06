@@ -146,10 +146,9 @@ $(function () {
     arrows: true,
     buttons: false,
     slideDistance: 0,
-    waitForLayers: true,
+    waitForLayers: false,
     autoplay: true,
-    thumbnailWidth: 1000,
-    thumbnailHeight: 600,
+    fullScreen: true,
     imageScaleMode: 'contain',
     autoScaleLayers: true,
     breakpoints: {
