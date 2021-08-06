@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <title>ADER | 아더에러</title>
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/layout.css?v210806">
+  <link rel="stylesheet" href="css/common.css?v210806">
   <!-- jQuery -->
   <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="http://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
@@ -90,20 +90,41 @@
   </div>
   <div class="intro_content">
     <h3>2021 ORIGIN LINE</h3>
-    <div class="intro"><img src="images/intro.jpg" alt=""></div>
+    <!-- <div class="intro"><img src="images/intro.jpg" alt=""></div> -->
+    <div class="slide-wrap">
+      <!-- 인디케이터 -->
+      <input type="radio" id="btn1" name="dot" checked>
+      <label for="btn1" id="in1" class="wide"></label>
+      <input type="radio" id="btn2" name="dot">
+      <label for="btn2" id="in2" class="wide"></label>
+      <input type="radio" id="btn3" name="dot">
+      <label for="btn3" id="in3" class="wide"></label>
+      <input type="radio" id="btn4" name="dot">
+      <label for="btn4" id="in4" class="wide"></label>
+      <!-- 슬라이드 이미지 -->
+      <ul class="slide">
+        <li class="slide-img1 rg" ></li>
+        <li class="slide-img2 rg" ></li>
+        <li class="slide-img3 rg" ></li>
+        <li class="slide-img4 rg" ></li>
+      </ul>
+    </div>
     <p>아더의 로고 아카이브 프로젝트 #오리진의 새로운 라인업,'슬라이스(Slice)' 로고를 지금 다양한 제품으로 만나보세요</p>
     <span class="button"><a href="#">Origin Line 보러가기</a></span>
   </div>
   <div class="contents">
     <h4 class="ct_title">Sinsa Space 3.0</h4>
-    <div class="con_caption">
-      <h2><small>NEW=MEDIA COMMUNICATION PLATFORM</small><br><br>아더 스페이스 3.0 신사 플래그십 스토어</h2>
-      <p>기존에 경험할 수 없었던 뉴 미디어 아트 기반 전시 <br> 경험형 커뮤니케이션 공간</p>
-      <span><a href="#">VR로 매장 보기</a></span>
-      <span><a href="#">매장정보 보러가기</a></span>
-    </div>
-    <div class="ct_vid">
-      <video src="video/content.mp4" autoplay muted loop></video>
+    <div class="con_wrap">
+      <div class="con_caption">
+        <h2 style="font-size: 12px; margin-top: 100px;">NEW=MEDIA COMMUNICATION PLATFORM</h2>
+        <h2 style="font-size: 18px; margin-top: 30px;">아더 스페이스 3.0 신사 플래그십 스토어</h2>
+        <p>기존에 경험할 수 없었던 뉴 미디어 아트 기반 전시 <br> 경험형 커뮤니케이션 공간</p>
+        <span><a href="#">VR로 매장 보기</a></span>
+        <span><a href="#">매장정보 보러가기</a></span>
+      </div>
+      <div class="ct_vid">
+        <video src="video/content.mp4" autoplay muted loop></video>
+      </div>
     </div>
   </div>
 </section>
@@ -165,12 +186,12 @@
       <div class="sns">
         <h4>ADER 소셜미디어</h4>
         <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li><a href="https://www.facebook.com/adererror"></a></li>
+          <li><a href="https://www.instagram.com/ader_error/#"></a></li>
+          <li><a href="https://www.youtube.com/channel/UCu8Oj6fqmD5tG4Nch2ijG4Q"></a></li>
+          <li><a href="https://pf.kakao.com/_mQzRxl"></a></li>
+          <li><a href="https://www.pinterest.co.kr/adererror/_created/"></a></li>
+          <li><a href="https://vimeo.com/adererror"></a></li>
           <li><a href="#"></a></li>
         </ul>
       </div>
@@ -181,6 +202,7 @@
       </div>
     </div>
 </section>
+
 
 </body>
 </html>
