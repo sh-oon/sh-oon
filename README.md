@@ -2,10 +2,10 @@
  
 👁️‍🗨️ Introduce
 ---
-- 주니어 프론트엔드 개발자 입니다.
-- 새로운 기술을 학습하는 것을 좋아하며 개발 토론을 좋아 합니다.
-- 코드리뷰를 통해 성장하는 것에 보람을 느낍니다.
-- 최적의 사용자 경험을 제공하려고자 개발자가 되겠습니다.
+- 프론트엔드 개발자 입니다.
+- 최선의 경험을 제공하기위해 항상 고민하는 것을 좋아합니다.
+- 읽기 좋은 코드를 만들기 위해 노력합니다.
+- 생각만 하는 것이 아닌 직접 만들어 보고 느끼면서 성장하는 개발자입니다.
 
 🏢 Career
 ---
@@ -22,10 +22,11 @@
 
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) <img src="https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=Nuxt.js&logoColor=white"/> 
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/React Native-61DAFB?style=for-the-badge&logo=React&logoColor=black"/>  <img src="https://img.shields.io/badge/Expo-000000?style=flat-square&logo=Expo&logoColor=white"/><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white"/> 
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/React Native-61DAFB?style=for-the-badge&logo=React&logoColor=black"/>  <img src="https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white"/> 
 
 **BackEnd**
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white"/>
 
 
 
@@ -38,7 +39,8 @@
 <img alt="Git" src ="https://img.shields.io/badge/Git-F05032.svg?&style=for-the-badge&logo=Git&logoColor=white"/> <img alt="GitHub" src ="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/> 
 
 **CI/CD**
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/docker-compose-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=Vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/docker compose-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/>
 
 ### Connect with me
 
