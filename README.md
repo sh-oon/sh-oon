@@ -1,52 +1,43 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=E45D4C&height=240&section=header&text=SungHoon%20Jung&fontSize=60&fontColor=ffffff&fontAlignY=40&animation=twinkling)
- 
-👁️‍🗨️ Introduce
----
-- 프론트엔드 개발자 입니다.
-- 최선의 경험을 제공하기위해 항상 고민하는 것을 좋아합니다.
-- 읽기 좋은 코드를 만들기 위해 노력합니다.
-- 생각만 하는 것이 아닌 직접 만들어 보고 느끼면서 성장하는 개발자입니다.
+안녕하세요. 3년 차 프론트엔드 개발자 정성훈입니다.
 
-🏢 Career
----
-- 주식회사 모두디자이너 2021.10 ~ 2023.02
-- 케이씨산업 빌드심플리 2023.05 ~ 2024.05
+<br />
 
-🔧 Technology Stack
----
+## 🛠 Tech Stacks
+
+**Language** : 
+<span><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/></span>
 
 
-**Frontend**
+**FrameWork/Library** : 
+<span><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/Nuxt.js-00DC82?style=flat-square&logo=Nuxt.js&logoColor=white"/> </span>
 
-<img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/> 
 
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) <img src="https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=Nuxt.js&logoColor=white"/> 
+**Style** : 
+<span><img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/styled_components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/></span>
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/React Native-61DAFB?style=for-the-badge&logo=React&logoColor=black"/>  <img src="https://img.shields.io/badge/Expo-000000?style=for-the-badge&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white"/> 
 
-**CI/CD**
+<br />
+<br />
 
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=Vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/docker compose-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/>
+## 📖 Resume
 
-### Connect with me
+[Click here to view my resume](https://www.rallit.com/resumes/167685@jshyh1/%EC%A0%95%EC%84%B1%ED%9B%88?theme=VANILLA_BLUE)
 
-<p>
-<a href="mailto:ajcjcjc@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-</p>
+<br />
+<br />
 
-<!--
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) 
-![React.js](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/> 
-<img alt="Redux" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"/> 
-<img alt="Spring" src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white"/> 
-<img alt="NestJS" src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" />
+## 📫 Contant
 
-참고 깃허브
-https://github.com/minuukang
-https://github.com/threeplef
-https://github.com/jooy2
--->
+<span><a href="mailto:ajcjcjc@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white"/></a></span>
+
+
+<br />
+<br />
+
+![sh-oon's GitHub stats](https://github-readme-stats.vercel.app/api?username=sh-oon&hide=contribs,prs&show_icons=true&show=prs_merged&theme=prussian)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=im-ian&layout=compact&theme=prussian)](https://github.com/sh-oon)
