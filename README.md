@@ -19,6 +19,7 @@
 **Style** : 
 <span><img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/></span>
 <span><img src="https://img.shields.io/badge/styled_components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/></span>
+<span><img src="https://img.shields.io/badge/styled_components-DB7093?style=flat-square&logo=tailwindcss&logoColor=white"/></span>
 
 
 <br />
